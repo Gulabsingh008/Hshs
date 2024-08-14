@@ -79,7 +79,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
          text=f"<b>❗नमस्ते {user} माफ़ी चाहता हुं में आपको यहाँ पर मूवी नहीं दे सकता हु</b>",
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+YhP5Bm0JNiw0Njll")]])
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+swpuQspBoVxiNjdl")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
